@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form id="form-container">
+            <label for="lado-do-quadrado">Digite o valor do lado do quadrado</label>
+            <div class="input-container">
+                <input id="side-input" type="number" name="lado-do-quadrado">
+                <span>metros</span>
+            </div>
+            <input id="submit-btn" type="submit" value="Calcular área do quadrado">
+        </form>
+        <div class="square-container">
+            <div id="square"></div>
+            <p class="left-value"><span id="lado1"></span>m</p>
+            <p class="bottom-value"><span id="lado2"></span>m</p>
+            <h2>A área do quadrado é: <span id="resultado"></span> m²</h2>
+        </div>
+    </div>
+</body>
+</html>
